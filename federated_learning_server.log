@@ -1,0 +1,203 @@
+2024-10-02 11:47:54,312 - INFO - Successfully connected to MongoDB
+2024-10-02 11:47:54,421 - INFO - Starting server with configuration:
+Number of rounds: 3
+Minimum fit clients: 2
+Minimum available clients: 2
+Minimum evaluate clients: 2
+Fraction fit: 1.0
+Fraction evaluate: 1.0
+2024-10-02 11:47:54,424 - INFO - Starting Flower server, config: num_rounds=3, no round_timeout
+2024-10-02 11:47:54,518 - INFO - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-10-02 11:47:54,519 - INFO - [INIT]
+2024-10-02 11:47:54,520 - INFO - Requesting initial parameters from one random client
+2024-10-02 11:48:09,237 - INFO - Received initial parameters from one random client
+2024-10-02 11:48:09,238 - INFO - Starting evaluation of initial global parameters
+2024-10-02 11:48:09,238 - INFO - Evaluation returned no results (`None`)
+2024-10-02 11:48:09,239 - INFO - 
+2024-10-02 11:48:09,239 - INFO - [ROUND 1]
+2024-10-02 11:48:09,240 - INFO - Round 1 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 11:48:09,240 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 11:49:46,128 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 11:49:46,158 - WARNING - No fit_metrics_aggregation_fn provided
+2024-10-02 11:49:46,242 - INFO - Round 1 results successfully logged to MongoDB
+2024-10-02 11:49:46,242 - INFO - Round 1 completed:
+Number of clients: 2
+Average loss: 0.8722
+Average accuracy: 95.40%
+Round duration: 0.00 seconds
+2024-10-02 11:49:46,244 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 11:49:50,096 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 11:49:50,181 - INFO - Round 1 evaluation completed:
+Number of clients: 2
+Average loss: 0.0489
+Average accuracy: 98.42%
+2024-10-02 11:49:50,182 - ERROR - Server error: cannot unpack non-iterable float object
+2024-10-02 11:57:24,645 - ERROR - MongoDB setup failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 66fce7c78c0855a73e25b8e2, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-02 11:57:24,648 - INFO - Starting server with configuration:
+Number of rounds: 3
+Minimum fit clients: 2
+Minimum available clients: 2
+Minimum evaluate clients: 2
+Fraction fit: 1.0
+Fraction evaluate: 1.0
+2024-10-02 11:57:24,651 - INFO - Starting Flower server, config: num_rounds=3, no round_timeout
+2024-10-02 11:57:24,693 - INFO - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-10-02 11:57:24,695 - INFO - [INIT]
+2024-10-02 11:57:24,696 - INFO - Requesting initial parameters from one random client
+2024-10-02 11:57:35,243 - INFO - Received initial parameters from one random client
+2024-10-02 11:57:35,244 - INFO - Starting evaluation of initial global parameters
+2024-10-02 11:57:35,244 - INFO - Evaluation returned no results (`None`)
+2024-10-02 11:57:35,245 - INFO - 
+2024-10-02 11:57:35,245 - INFO - [ROUND 1]
+2024-10-02 11:57:56,874 - INFO - Round 1 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 11:57:56,875 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 11:59:39,389 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 11:59:39,413 - WARNING - No fit_metrics_aggregation_fn provided
+2024-10-02 11:59:39,414 - INFO - Round 1 completed:
+Number of clients: 2
+Average loss: 0.8610
+Average accuracy: 95.74%
+Round duration: 0.00 seconds
+2024-10-02 11:59:39,415 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 11:59:44,142 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 11:59:44,142 - INFO - Round 1 evaluation completed:
+Number of clients: 2
+Average loss: 0.0366
+Average accuracy: 98.89%
+2024-10-02 11:59:44,143 - INFO - 
+2024-10-02 11:59:44,143 - INFO - [ROUND 2]
+2024-10-02 11:59:44,143 - INFO - Round 2 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 11:59:44,144 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 12:01:24,288 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 12:01:24,320 - INFO - Round 2 completed:
+Number of clients: 2
+Average loss: 0.7320
+Average accuracy: 98.80%
+Round duration: 0.00 seconds
+2024-10-02 12:01:24,322 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 12:01:28,299 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 12:01:28,300 - INFO - Round 2 evaluation completed:
+Number of clients: 2
+Average loss: 0.0296
+Average accuracy: 99.04%
+2024-10-02 12:01:28,301 - INFO - 
+2024-10-02 12:01:28,302 - INFO - [ROUND 3]
+2024-10-02 12:01:28,303 - INFO - Round 3 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 12:01:28,304 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 12:03:09,265 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 12:03:09,291 - INFO - Round 3 completed:
+Number of clients: 2
+Average loss: 0.7133
+Average accuracy: 99.38%
+Round duration: 0.00 seconds
+2024-10-02 12:03:09,293 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 12:03:13,697 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 12:03:13,698 - INFO - Round 3 evaluation completed:
+Number of clients: 2
+Average loss: 0.0258
+Average accuracy: 99.18%
+2024-10-02 12:03:13,698 - INFO - 
+2024-10-02 12:03:13,700 - INFO - [SUMMARY]
+2024-10-02 12:03:13,700 - INFO - Run finished 3 round(s) in 338.45s
+2024-10-02 12:03:13,701 - INFO - 	History (loss, distributed):
+2024-10-02 12:03:13,702 - INFO - 		round 1: 0.03659386560320854
+2024-10-02 12:03:13,703 - INFO - 		round 2: 0.029552651569247246
+2024-10-02 12:03:13,703 - INFO - 		round 3: 0.025771109387278557
+2024-10-02 12:03:13,704 - INFO - 	History (metrics, distributed, evaluate):
+2024-10-02 12:03:13,704 - INFO - 	{'accuracy': [(1, 98.89), (2, 99.04), (3, 99.18)]}
+2024-10-02 12:03:13,705 - INFO - 
+2024-10-02 12:08:11,290 - ERROR - MongoDB setup failed: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 66fcea4e303be4fcd31517e3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-02 12:08:11,292 - INFO - Starting server with configuration:
+Number of rounds: 3
+Minimum fit clients: 2
+Minimum available clients: 2
+Minimum evaluate clients: 2
+Fraction fit: 1.0
+Fraction evaluate: 1.0
+2024-10-02 12:08:11,294 - INFO - Starting Flower server, config: num_rounds=3, no round_timeout
+2024-10-02 12:08:11,322 - INFO - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+2024-10-02 12:08:11,323 - INFO - [INIT]
+2024-10-02 12:08:11,324 - INFO - Requesting initial parameters from one random client
+2024-10-02 12:08:13,223 - INFO - Received initial parameters from one random client
+2024-10-02 12:08:13,223 - INFO - Starting evaluation of initial global parameters
+2024-10-02 12:08:13,224 - INFO - Evaluation returned no results (`None`)
+2024-10-02 12:08:13,225 - INFO - 
+2024-10-02 12:08:13,225 - INFO - [ROUND 1]
+2024-10-02 12:08:18,889 - INFO - Round 1 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 12:08:18,890 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 12:10:00,383 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 12:10:00,403 - WARNING - No fit_metrics_aggregation_fn provided
+2024-10-02 12:10:00,404 - INFO - Round 1 completed:
+Number of clients: 2
+Average loss: 0.8648
+Average accuracy: 95.74%
+Round duration: 0.00 seconds
+2024-10-02 12:10:00,405 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 12:10:04,379 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 12:10:04,379 - INFO - Round 1 evaluation completed:
+Number of clients: 2
+Average loss: 0.0425
+Average accuracy: 98.58%
+2024-10-02 12:10:04,380 - INFO - 
+2024-10-02 12:10:04,380 - INFO - [ROUND 2]
+2024-10-02 12:10:04,381 - INFO - Round 2 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 12:10:04,381 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 12:11:47,685 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 12:11:47,707 - INFO - Round 2 completed:
+Number of clients: 2
+Average loss: 0.7328
+Average accuracy: 98.78%
+Round duration: 0.00 seconds
+2024-10-02 12:11:47,710 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 12:11:51,514 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 12:11:51,514 - INFO - Round 2 evaluation completed:
+Number of clients: 2
+Average loss: 0.0271
+Average accuracy: 99.09%
+2024-10-02 12:11:51,515 - INFO - 
+2024-10-02 12:11:51,515 - INFO - [ROUND 3]
+2024-10-02 12:11:51,515 - INFO - Round 3 configuration:
+Number of selected clients: 2
+Local epochs: 1
+Mu parameter: 1.0
+2024-10-02 12:11:51,516 - INFO - configure_fit: strategy sampled 2 clients (out of 2)
+2024-10-02 12:13:34,627 - INFO - aggregate_fit: received 2 results and 0 failures
+2024-10-02 12:13:34,645 - INFO - Round 3 completed:
+Number of clients: 2
+Average loss: 0.7149
+Average accuracy: 99.34%
+Round duration: 0.00 seconds
+2024-10-02 12:13:34,647 - INFO - configure_evaluate: strategy sampled 2 clients (out of 2)
+2024-10-02 12:13:38,643 - INFO - aggregate_evaluate: received 2 results and 0 failures
+2024-10-02 12:13:38,643 - INFO - Round 3 evaluation completed:
+Number of clients: 2
+Average loss: 0.0264
+Average accuracy: 99.18%
+2024-10-02 12:13:38,644 - INFO - 
+2024-10-02 12:13:38,645 - INFO - [SUMMARY]
+2024-10-02 12:13:38,645 - INFO - Run finished 3 round(s) in 325.42s
+2024-10-02 12:13:38,646 - INFO - 	History (loss, distributed):
+2024-10-02 12:13:38,646 - INFO - 		round 1: 0.04245423153042793
+2024-10-02 12:13:38,647 - INFO - 		round 2: 0.027130944654345512
+2024-10-02 12:13:38,647 - INFO - 		round 3: 0.02639777585864067
+2024-10-02 12:13:38,647 - INFO - 	History (metrics, distributed, evaluate):
+2024-10-02 12:13:38,648 - INFO - 	{'accuracy': [(1, 98.58), (2, 99.09), (3, 99.18)]}
+2024-10-02 12:13:38,648 - INFO - 
